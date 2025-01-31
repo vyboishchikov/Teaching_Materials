@@ -6,7 +6,7 @@
 <p><b><span style='font-size:13pt'>TEACHING</span></b></p>
 
 <p>&bull;&nbsp;<b>Chemical kinetics</b>/<b>Cinètica Química i dinàmica Molecular </b>(bachelor course in academic years 2012–2019)</p>
-<p>&nbsp;&nbsp; <b>–</b> See lecture notes <a href="http://github.com/vyboishchikov/Teaching_Materials/blob/CINETICA/Apunts.pdf">here</a></p>
+<p>&nbsp;&nbsp; <b>–</b> See lecture notes <a href="http://github.com/vyboishchikov/Teaching_Materials/blob/CINETICA/https://github.com/vyboishchikov/Teaching_Materials/blob/KINETICS/Lecture-Notes.pdf">here</a></p>
 <p>&bull;&nbsp;<b>Nanotechnology </b>(bachelor course in academic years 2014–2019)</p>
 <p>&nbsp;&nbsp; <b>–</b> See lecture notes <a href="http://github.com/vyboishchikov/Teaching_Materials/blob/NANOTECHNOLOGY/Apunts.pdf">here</a></p>
 <p>&bull;&nbsp;<b>New Tools in Chemical Bonding </b>(master course in academic years 2017–2019)</p>
