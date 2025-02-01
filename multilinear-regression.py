@@ -1,6 +1,5 @@
 # Python code for multiple lineal regression Y = a*X1 + b*X2 + c
 # in linear or logarithmic scale
-# https://trinket.io/embed/python3
 import sklearn.linear_model, math
 
 X1 = [ 0.50, 0.50, 1.00, 1.00]
