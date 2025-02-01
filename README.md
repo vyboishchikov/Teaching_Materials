@@ -1,5 +1,5 @@
 # Teaching materials
-## Sergei F. Vyboishchikov
+## Sergei F. Vyboishchikov (Univesitat de Girona)
 
 <p>&bull;&nbsp;<b>Chemical kinetics</b>/<b>Cin&egrave;tica Qu&iacute;mica i din&agravemica Molecular </b>(bachelor course in academic years 2020&ndash;2024)</p>
 <p>&nbsp;&nbsp; <b>&ndash;</b> <a href="http://github.com/vyboishchikov/Teaching_Materials/blob/KINETICS/Lecture-Notes.pdf">Lecture notes</a>.</p>
