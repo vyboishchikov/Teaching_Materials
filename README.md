@@ -1,9 +1,5 @@
-# Sergei
-## Vyboishchikov
-## Teaching materials
-<p><b><span style='font-size:24pt'>Sergei F. Vyboishchikov</span></b></p>
-
-<p><b><span style='font-size:13pt'>TEACHING MATERIALS</span></b></p>
+# Teaching materials
+## Sergei F. Vyboishchikov
 
 <p>&bull;&nbsp;<b>Chemical kinetics</b>/<b>Cin&egrave;tica Qu&iacute;mica i din&agravemica Molecular </b>(bachelor course in academic years 2020&ndash;2024)</p>
 <p>&nbsp;&nbsp; <b>&ndash;</b> See lecture notes <a href="https://github.com/vyboishchikov/Teaching_Materials/blob/KINETICS/Lecture-Notes.pdf">here</a></p>
