@@ -1,5 +1,7 @@
-<html>
-#<p><b><span style='font-size:24pt'>Sergei F. Vyboishchikov</span></b></p>
+#Sergei
+##Vyboishchikov
+## Teaching materials
+<p><b><span style='font-size:24pt'>Sergei F. Vyboishchikov</span></b></p>
 
 <p><b><span style='font-size:13pt'>TEACHING MATERIALS</span></b></p>
 
