@@ -16,7 +16,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &middot; On <a href="http://github.com/vyboishchikov/Teaching_Materials/blob/NEW-TOOLS/VB.pdf">Valence Bond Method</a></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &middot; On <a href="http://github.com/vyboishchikov/Teaching_Materials/blob/NEW-TOOLS/NBO.pdf">Natural Bond Orbitals method</a></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &middot; On <a href="http://github.com/vyboishchikov/Teaching_Materials/blob/NEW-TOOLS/HirshfeldACP.pdf">Hirshfeld, Iterative Stockholder, and Adjusted Charge partitioning</a></p>
-<p><b><span style='font-size:13pt'>Legacy materials</span></b></p>
+## Legacy materials
 <p>&nbsp;&nbsp; <b>&ndash;</b> Henderson&ndash;Hasselbalch equation and a correction to it <a href="http://github.com/vyboishchikov/Teaching_Materials/blob/QUIMICA/Henderson-Hasselbalch.pdf">here</a></p>
 <p>&bull;&nbsp;<b>Nanopharmaceuticals and Drug Delivery Systems</b> (master course in academic years 2009&ndash;10, 2010&ndash;11)</p>
 <p>&nbsp;&nbsp; <b>&ndash;</b> See lecture notes <a href="http://github.com/vyboishchikov/Teaching_Materials/blob/NANOPHARMA/Nanopharma-Notes.pdf">here</a></p>
