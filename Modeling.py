@@ -1,6 +1,3 @@
-# https://trinket.io/embed/python3
-# https://www.onlinegdb.com/online_python_compiler
-
 import scipy.integrate
 
 k1 = 4.7e-7
