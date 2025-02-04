@@ -1,0 +1,30 @@
+    <h1>Problems of Chemical Kinetics using <a href="https://www.wolframalpha.com/"><i>WolframAlpha</i></a>.</h1>
+
+    <p>In these problems, you have to:</p>
+    <p>&bull; Write the <i>rate matrix</i> (<b>K</b> matrix).</p>
+    <p>&bull; Find the eigenvalues of the <b>K</b> matrix using the <code>Eigenvalues[]</code> function of <i>WolframAlpha</i>.</p>
+    <p>&bull; Find the eigendecomposition of the <b>K</b> matrix using the <code>Diagonalize[]</code> function of
+     <i>WolframAlpha</i>. Watch the cases (if any) when the <b>K</b> matrix is not diagonalizable. </p>
+    <p>&bull; Find the matrix exponential <i>e</i><b><sup>K</sup></b><i><sup>t</sup></i>
+        using the <code>MatrixExp[]</code> function of <i>WolframAlpha</i>.
+        Make sure you are really calling <code>MatrixExp[]</code> rather than <code>Exp[]</code>.</p>
+    <p>&bull; Multiply the resulting <i>e</i><sup><b>K</b><i>t</i></sup> matrix by an initial-concentration vector.
+        Consider the case when only one reactant [A] is present ([A]<sub>0</sub>&#8800; 0,
+        [B]<sub>0</sub> =[C]<sub>0</sub>=...=0) as well as the case when all reactants are present
+        at the beginning: [A]<sub>0</sub>&#8800; 0, [B]<sub>0</sub>&#8800; 0,
+        [C]<sub>0</sub>&#8800; 0,... <i>Hint:</i> this matrix-vector multiplication and the
+        previous step (<i>e</i><sup><b>K</b><i>t</i></sup> matrix calculation) can be done by
+        <i>WolframAlpha</i> in a single step. Figure out yourself how.
+    </p>
+
+    <p>&bull; If possible, solve the original system of kinetic equations for the given initial concentrations directly, using the
+         <code>Solve[]</code> function of <i>WolframAlpha</i>. Compare the results with those obtained previously by the matrix method. </p>
+    <p>The systems to do are the following ones:</p>
+    <p><b>1.</b> A&rarr;B&rarr;C with different rate constants <i>k</i><sub>1</sub>&#8800;<i>k</i><sub>2</sub>.</p>
+    <p><b>2.</b> A&rarr;B&rarr;C with identical rate constants <i>k</i><sub>1</sub> = <i>k</i><sub>2</sub> = <i>k</i>.</p>
+    <p><b>3.</b> A&#8644;B&rarr;C with rate constants <i>k</i><sub>1</sub>, <i>k</i><sub>–1</sub>, <i>k</i><sub>2</sub>.</p>
+    <p><b>4.</b> A&#8644;B&rarr;C with indentical rate constants <i>k</i><sub>1</sub> = <i>k</i><sub>–1</sub> = <i>k</i><sub>2</sub> = <i>k</i>.</p>
+    <p><b>5.</b> A&rarr;B&#8644;C with rate constants <i>k</i><sub>1</sub>, <i>k</i><sub>2</sub>, <i>k</i><sub>–2</sub>.</p>
+    <p><b>6.</b> A&rarr;B, A&#8644;C with rate constants <i>k</i><sub>1</sub>, <i>k</i><sub>2</sub>, <i>k</i><sub>–2</sub>.</p>
+    <p><b>7.</b> A&rarr;B&rarr;C&rarr;D with different rate constants <i>k</i><sub>1</sub>&#8800;<i>k</i><sub>2</sub>&#8800;<i>k</i><sub>3</sub>.</p>
+    <p><b>8.</b> A&rarr;B&rarr;C with identical rate constants <i>k</i><sub>1</sub> = <i>k</i><sub>2</sub> = <i>k</i><sub>3</sub> = <i>k</i>.</p>
