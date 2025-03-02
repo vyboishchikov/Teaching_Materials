@@ -1,4 +1,5 @@
-import scipy.integrate
+# model reaction: ozone decomposition
+import scipy.integrate, numpy
 
 k1 = 4.7e-7
 k_1 = 4.2e-11
@@ -18,10 +19,12 @@ SimulationTime = 63115200.0 # two years in seconds; replace this by a value suit
 InitialConcentrations = 7.4e12, 1.5e17, 0.0
 Substances = "O3, O2, O"
 
-Solution = scipy.integrate.solve_ivp(Kinetics,(0.0, SimulationTime), InitialConcentrations, 
-	method='LSODA', max_step=SimulationTime/5000)
+Separator = "," # adjust the field separator to your system; may be "," or ";", or "\t"
+
+Solution = scipy.integrate.solve_ivp(Kinetics,(0, SimulationTime), InitialConcentrations, 
+	method='LSODA', t_eval=numpy.linspace(0,SimulationTime,1000),max_step=SimulationTime/10000)
 
 if not Solution.success: print("Error message:",Solution.message)
-print("\t".join(["%-12s"%r for r in ("Time,"+Substances).replace(" ","").split(",")]))
-for i,t in enumerate(Solution.t):
-	print("\t".join(["%-12.7g"%t]+["%12.7g"%r[i] for r in Solution.y]))
+print("Time"+Separator+Separator.join(Substances.replace(" ","").split(",")))
+for t,Y in zip(Solution.t,Solution.y.T):
+	print("%12.7g"%t+Separator+Separator.join(["%12.7g"%y for y in Y]))
